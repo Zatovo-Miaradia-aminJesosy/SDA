@@ -38,6 +38,9 @@
             transition: all 0.3s ease;
             transform: translateY(-100%);
             opacity: 0;
+            min-height: 80px;
+            display: flex;
+            align-items: flex-start;
         }
         
         .sticky-header.visible {
@@ -49,10 +52,11 @@
         
         .sticky-header-content {
             max-width: 100%;
-            padding: 20px 20px;
+            padding: 25px 20px 15px;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             justify-content: center;
+            width: 100%;
         }
         
         .sticky-title {
@@ -61,6 +65,8 @@
             font-family: 'Lora', serif;
             color: #8B4513;
             letter-spacing: -0.5px;
+            padding-top: 5px;
+            margin-top: 5px;
         }
         
         /* HERO SECTION */
@@ -243,6 +249,20 @@
         }
         
         @media (max-width: 375px) {
+            .sticky-header {
+                min-height: 70px;
+            }
+            
+            .sticky-header-content {
+                padding: 20px 16px 12px;
+            }
+            
+            .sticky-title {
+                font-size: 24px;
+                padding-top: 3px;
+                margin-top: 3px;
+            }
+            
             .hero-section {
                 height: 240px;
             }
@@ -253,14 +273,6 @@
             
             .hero-subtitle {
                 font-size: 16px;
-            }
-            
-            .sticky-header-content {
-                padding: 18px 16px;
-            }
-            
-            .sticky-title {
-                font-size: 24px;
             }
             
             .container {
