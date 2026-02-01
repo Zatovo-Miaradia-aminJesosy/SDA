@@ -17,6 +17,91 @@
             -webkit-tap-highlight-color: transparent;
         }
         
+        /* OFFLINE INDICATOR */
+        .offline-indicator {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(90deg, #ff6b6b 0%, #ee5a6f 50%, #ff6b6b 100%);
+            background-size: 200% 100%;
+            color: #ffffff;
+            padding: 12px 20px;
+            text-align: center;
+            z-index: 9999;
+            font-size: 15px;
+            font-weight: 500;
+            transform: translateY(-100%);
+            transition: transform 0.3s ease;
+            animation: wave 3s ease-in-out infinite;
+            box-shadow: 0 2px 8px rgba(255, 107, 107, 0.3);
+        }
+        
+        .offline-indicator.show {
+            transform: translateY(0);
+        }
+        
+        .offline-indicator::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            animation: shimmer 2s infinite;
+        }
+        
+        @keyframes wave {
+            0%, 100% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+        }
+        
+        @keyframes shimmer {
+            0% {
+                left: -100%;
+            }
+            100% {
+                left: 100%;
+            }
+        }
+        
+        .offline-icon {
+            display: inline-block;
+            margin-right: 8px;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.7;
+                transform: scale(1.1);
+            }
+        }
+        
+        /* IMAGE FALLBACK */
+        .hero-image-error {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+            align-items: center;
+            justify-content: center;
+            color: rgba(255,255,255,0.6);
+            font-size: 14px;
+        }
+        
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
             background: #ffffff;
@@ -35,28 +120,25 @@
             background: #ffffff;
             z-index: 100;
             border-bottom: 1px solid transparent;
-            transition: all 0.3s ease;
-            transform: translateY(-100%);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            transform: translateY(0);
             opacity: 0;
-            min-height: 80px;
-            display: flex;
-            align-items: flex-start;
+            pointer-events: none;
         }
         
         .sticky-header.visible {
-            transform: translateY(0);
             opacity: 1;
             border-bottom-color: #e8e8e8;
             box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            pointer-events: auto;
         }
         
         .sticky-header-content {
             max-width: 100%;
-            padding: 25px 20px 15px;
+            padding: 20px 20px;
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             justify-content: center;
-            width: 100%;
         }
         
         .sticky-title {
@@ -65,8 +147,9 @@
             font-family: 'Lora', serif;
             color: #8B4513;
             letter-spacing: -0.5px;
-            padding-top: 5px;
-            margin-top: 5px;
+            padding-top: 4px;
+            transform: translateY(0);
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
         
         /* HERO SECTION */
@@ -147,6 +230,13 @@
             letter-spacing: -0.5px;
             line-height: 1.2;
             margin-bottom: 0;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            transform-origin: center top;
+        }
+        
+        .main-title.scrolled {
+            opacity: 0.3;
+            transform: scale(0.9) translateY(-10px);
         }
         
         .lessons-list {
@@ -249,20 +339,6 @@
         }
         
         @media (max-width: 375px) {
-            .sticky-header {
-                min-height: 70px;
-            }
-            
-            .sticky-header-content {
-                padding: 20px 16px 12px;
-            }
-            
-            .sticky-title {
-                font-size: 24px;
-                padding-top: 3px;
-                margin-top: 3px;
-            }
-            
             .hero-section {
                 height: 240px;
             }
@@ -273,6 +349,14 @@
             
             .hero-subtitle {
                 font-size: 16px;
+            }
+            
+            .sticky-header-content {
+                padding: 18px 16px;
+            }
+            
+            .sticky-title {
+                font-size: 24px;
             }
             
             .container {
@@ -325,6 +409,12 @@
     </style>
 </head>
 <body>
+    <!-- OFFLINE INDICATOR -->
+    <div class="offline-indicator" id="offlineIndicator">
+        <span class="offline-icon">⚠️</span>
+        <span>Tsy misy connexion Internet</span>
+    </div>
+
     <!-- STICKY HEADER -->
     <div class="sticky-header" id="stickyHeader">
         <div class="sticky-header-content">
@@ -335,7 +425,14 @@
     <!-- HERO SECTION -->
     <div class="hero-section">
         <!-- Sary avy GitHub -->
-        <img src="https://zatovo-miaradia-aminjesosy.github.io/SDA/images/hero.jpg" alt="Hero" class="hero-image">
+        <img src="https://zatovo-miaradia-aminjesosy.github.io/SDA/images/hero.jpg" 
+             alt="Hero" 
+             class="hero-image"
+             id="heroImage"
+             onerror="this.style.display='none'; document.getElementById('heroImageError').style.display='flex';">
+        <div class="hero-image-error" id="heroImageError">
+            Sary tsy nahavaky
+        </div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1 class="hero-title">Zatovo</h1>
@@ -506,33 +603,85 @@
     </div>
 
     <script>
-        // Sticky header animation
-        const stickyHeader = document.getElementById('stickyHeader');
-        const heroSection = document.querySelector('.hero-section');
+        // ============================================
+        // ONLINE/OFFLINE DETECTION
+        // ============================================
+        const offlineIndicator = document.getElementById('offlineIndicator');
         
-        let lastScrollTop = 0;
-        let heroHeight = 0;
-        
-        // Maka ny hauteur ny hero section
-        function updateHeroHeight() {
-            heroHeight = heroSection.offsetHeight;
+        function updateOnlineStatus() {
+            if (navigator.onLine) {
+                // Online - afenina ny indicator
+                offlineIndicator.classList.remove('show');
+            } else {
+                // Offline - aseho ny indicator
+                offlineIndicator.classList.add('show');
+            }
         }
         
-        updateHeroHeight();
-        window.addEventListener('resize', updateHeroHeight);
+        // Mijery rehefa misokatra ny page
+        updateOnlineStatus();
         
-        // Scroll event
+        // Event listeners ho an'ny online/offline
+        window.addEventListener('online', updateOnlineStatus);
+        window.addEventListener('offline', updateOnlineStatus);
+        
+        // Check periodically (isaky ny 3 seconds)
+        setInterval(function() {
+            updateOnlineStatus();
+        }, 3000);
+        
+        // ============================================
+        // STICKY HEADER ANIMATION
+        // ============================================
+        const stickyHeader = document.getElementById('stickyHeader');
+        const heroSection = document.querySelector('.hero-section');
+        const mainTitle = document.querySelector('.main-title');
+        const container = document.querySelector('.container');
+        
+        let heroHeight = 0;
+        let containerTop = 0;
+        
+        // Maka ny position
+        function updatePositions() {
+            heroHeight = heroSection.offsetHeight;
+            containerTop = container.offsetTop;
+        }
+        
+        updatePositions();
+        window.addEventListener('resize', updatePositions);
+        
+        // Scroll event miaraka amin'ny smooth animation
+        let ticking = false;
+        
         window.addEventListener('scroll', function() {
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            
-            // Mampiseho sticky header rehefa miala ny hero section
-            if (scrollTop > heroHeight - 60) {
-                stickyHeader.classList.add('visible');
-            } else {
-                stickyHeader.classList.remove('visible');
+            if (!ticking) {
+                window.requestAnimationFrame(function() {
+                    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                    
+                    // Calculate progress (0 to 1)
+                    const scrollStart = heroHeight - 100;
+                    const scrollEnd = heroHeight + 50;
+                    const progress = Math.max(0, Math.min(1, (scrollTop - scrollStart) / (scrollEnd - scrollStart)));
+                    
+                    // Manova opacity ny main title
+                    if (scrollTop > heroHeight - 150) {
+                        mainTitle.classList.add('scrolled');
+                    } else {
+                        mainTitle.classList.remove('scrolled');
+                    }
+                    
+                    // Mampiseho sticky header miaraka amin'ny smooth fade
+                    if (scrollTop > heroHeight + 20) {
+                        stickyHeader.classList.add('visible');
+                    } else {
+                        stickyHeader.classList.remove('visible');
+                    }
+                    
+                    ticking = false;
+                });
+                
+                ticking = true;
             }
-            
-            lastScrollTop = scrollTop;
         });
     </script>
 </body>
