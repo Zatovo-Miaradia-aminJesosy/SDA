@@ -1,96 +1,111 @@
 {
   "summaries": [
     {
-      "date": "2026-02-01",
-      "title": "Ny Fanetren-tena",
-      "content": "Ny fanetren-tena dia singa iray lehibe amin'ny fiainana kristianina. Tsy ny hery ara-nofo no mahazo antsika fa ny herin'Andriamanitra miasa ao anatintsika. Rehefa manetry tena isika dia manaiky fa tsy mahavita na inona na inona ho antsika isika raha tsy misy Izy.",
-      "verse": "Fa ny herin'Andriamanitra no mahatanteraka ny asa rehetra ao amintsika.",
-      "reference": "Filipiana 2:13"
+      "week_number": 1,
+      "start_date": "2024-12-27",
+      "title": "Herinandro voalohany",
+      "content": "Mazàna ny teny farany izay ambaran'ny olona iray no tena manana ny lanjany indrindra, indrindra indrindra moa raha fantany fa izany no hany teny farany azony ambara. Tsy misy hata amin izany ny teny farany nolazain'i Kristy.",
+      "verse": "...",
+      "date": "27 déc - 2 jan"
     },
     {
-      "date": "2026-02-02",
-      "title": "Ny Fitiavana Tsy Misy Fetra",
-      "content": "Ny fitiavan'Andriamanitra dia tsy manam-petra. Na dia mpanota aza isika, dia mbola tia antsika Izy. Io fitiavana io no tokony hanosika antsika hiaina araka ny sitrapony.",
-      "verse": "Fa toy izao no nitiavan'Andriamanitra izao tontolo izao: nomeny ny Zanany Lahitokana.",
-      "reference": "Jaona 3:16"
+      "week_number": 2,
+      "start_date": "2025-01-03",
+      "title": "...",
+      "content": "Anankiray amin ireo fanomezana lehibe indrindra atolotr'Andriamanitra antsika ny Fanahy Masina. Fanomezana mendrika horaisina ve anefa ny fahitantsika Azy?",
+      "verse": "...",
+      "date": "3 jan - 9 jan"
     },
     {
-      "date": "2026-02-03",
-      "title": "Manantena an'i Jehovah",
-      "content": "Ny fiainana dia tsy mora foana. Misy fotoana sarotra, misy olana tsy ampoizintsika. Saingy Andriamanitra dia mandalo amin'ny fotoana rehetra. Manantena Azy, fa tsy hamela anao Izy.",
-      "verse": "Manantena an'i Jehovah, ka mahereza; ary aoka ho matanjaka ny fonao.",
-      "reference": "Salamo 27:14"
+      "week_number": 3,
+      "start_date": "2025-01-10",
+      "title": "...",
+      "content": "Hita niharihary teo amin'ny fomba firesahana Jaona sy i Petera fa niara-dia tamin'i Jesôsy izy ireo. Izany koa ve no ambaran'ny olona mikasika antsika?",
+      "verse": "...",
+      "date": "10 jan - 16 jan"
     },
     {
-      "date": "2026-02-04",
-      "title": "Ny Fahatokiana",
-      "content": "Ny fahatokiana amin'Andriamanitra dia tsy fahitana ny vokatry ny ezaka fa ny finoana fa Izy no mifehy ny toe-javatra rehetra. Rehefa matoky an'Andriamanitra isika, dia manome azy ny fahefana hifehy ny fiainantsika.",
-      "verse": "Matokia amin'i Jehovah amin'ny fonao manontolo, ary aza miantehitra amin'ny fahendrentsika.",
-      "reference": "Ohabolana 3:5"
+      "week_number": 4,
+      "start_date": "2025-01-17",
+      "title": "...",
+      "content": "Miantso antsika ho mahatoky tanteraka sy tsy hanan-kilema amin'ny toetra Andriamanitra. Mampalahelo anefa fa tsy niraharaha izany antso izany i Ananiasy sy i Sahra.",
+      "verse": "...",
+      "date": "17 jan - 23 jan"
     },
     {
-      "date": "2026-02-05",
-      "title": "Ny Fihavanana",
-      "content": "Ny fihavanana eo amin'ny mpino dia porofo ny fisian'i Kristy ao amintsika. Rehefa miara-mipetraka amin'ny fitiavana isika, dia maneho ny fampianaran'i Kristy amin'ny tontolo iainana.",
-      "verse": "Koa indro, tsara sady mahafinaritra, ny mipetraka miaraka amin'ny rahalahy amin'ny fihavanana.",
-      "reference": "Salamo 133:1"
+      "week_number": 5,
+      "start_date": "2025-01-24",
+      "title": "...",
+      "content": "Na mpitaika ara-pivavahana isika, na tanora, da samy omen Andriamanitra hery avokoa tsy ny mba handresentsika ny fahoriana anefa fa ny hampitombo ny fanomezam pahasoavantsika mba hampiasaina ho voninahiny.",
+      "verse": "...",
+      "date": "24 jan - 30 jan"
     },
     {
-      "date": "2026-02-06",
-      "title": "Ny Famelan-keloka",
-      "content": "Ny famelan-keloka dia fanomezana avy amin'Andriamanitra izay mahafaka antsika amin'ny enta-mavesatra ny fahotana. Rehefa mahay mamela isika, dia maneho ny fitiavan'Andriamanitra izay nomeny antsika aloha.",
-      "verse": "Fa raha mamelan'ny olona ny fahotany, dia hamela koa ny Raiko any an-danitra.",
-      "reference": "Matio 6:14"
+      "week_number": 6,
+      "start_date": "2025-01-31",
+      "title": "...",
+      "content": "Nentina teo amin'ny hitsarana i Stefana noho ny fiampangana sandoka natao taminy. Fotoana fohy monja no nomena hiarovany tena dia novonoina izy. Nitaky vidiny toy izany ny fanompoana an Andriamanitra tamin izany fotoana izany sy amin'izao andro izao koa.",
+      "verse": "...",
+      "date": "31 jan - 6 fév"
     },
     {
-      "date": "2026-02-07",
-      "title": "Ny Fivarotam-pahotana",
-      "content": "I Jesosy Kristy no fivarotam-pahotana. Amin'ny alalany ihany no ahazoantsika famelan-keloka sy fanavotana. Tsy misy hafa izay afaka manafaka antsika amin'ny fahotana.",
-      "verse": "Ary tsy misy hafa izay afaka manavotana; fa tsy misy anarana hafa eo ambanin'ny lanitra nomena amin'ny olona, izay ahazoantsika famonjena amin'izany.",
-      "reference": "Asa 4:12"
+      "week_number": 7,
+      "start_date": "2025-02-07",
+      "title": "...",
+      "content": "Efa tafahoatra loatra ny asa fandravana nataon'i Saoly ka tsy maintsy nampijanona azy sy nanova ny anarany ary nametraka azy tamin'ny lalan-ka fa Jesosy, dia lalana nisy tanjona.",
+      "verse": "...",
+      "date": "7 fév - 13 fév"
     },
     {
-      "date": "2026-02-08",
-      "title": "Ny Finoana",
-      "content": "Ny finoana dia fanekena ny zava-misy izay tsy hitan'ny maso. Amin'ny finoana no ahazoantsika toky fa ny teny fikasana nomen'Andriamanitra dia ho tanteraka.",
-      "verse": "Fa ny finoana no fahazoana izay antenaina, sy fijery ny zava-misy tsy hita.",
-      "reference": "Hebreo 11:1"
+      "week_number": 8,
+      "start_date": "2025-02-14",
+      "title": "...",
+      "content": "Araka ny voaporofo teo amin'ny fiainan'i Petera, dia tsy olona tonga lafatra no tadiavin'i Jesôsy mba hanaraka Azy fa olona mety diso amin'ny maha-olombelona azy kanefa azon'ny fitiavany ovàna.",
+      "verse": "...",
+      "date": "14 fév - 20 fév"
     },
     {
-      "date": "2026-02-09",
-      "title": "Ny Fanoloran-tena",
-      "content": "Ny fanoloran-tena dia fihetsika izay maneho ny fanandratana ny sitrapon'Andriamanitra noho ny anay. Rehefa manolotra ny fiainantsika amin'Andriamanitra isika, dia manome azy ny fahefana hitantana antsika.",
-      "verse": "Koa dia angataho anareo, rahalahy, noho ny famindram-po nataon'Andriamanitra, mba hanoloranareo ny tenanareo ho fanatitra velona, masina, sitrak'Andriamanitra.",
-      "reference": "Rôm. 12:1"
+      "week_number": 9,
+      "start_date": "2025-02-21",
+      "title": "...",
+      "content": "TAntiokia no fihaonan-dalana lehibe teo amin'ny fanjakana rômanina, ary avy teo no nandefasan'Andriamanitra ny olony hanatanteraka iraka. Tsy nijanona teo aneta izany.",
+      "verse": "...",
+      "date": "21 fév - 27 fév"
     },
     {
-      "date": "2026-02-10",
-      "title": "Ny Faharetana",
-      "content": "Ny faharetana dia hery avy amin'Andriamanitra izay manampy antsika hiaretana ny fahoriana sy ny fitsapana. Amin'ny faharetana no ahitantsika ny vokatry ny finoantsika.",
-      "verse": "Ary ny faharetana dia manana ny vokany izay tonga lafatra, mba ho tonga lafatra sy feno tsy misy kilema ianareo.",
-      "reference": "Jakoba 1:4"
+      "week_number": 10,
+      "start_date": "2025-02-28",
+      "title": "...",
+      "content": "Nisy fifanolanana teo anivon'ny Jentilisa sy ny Jiosy mpino. Tamin'ny alalan'ny fifampizarana ny fomba niasan'Andriamanitra teo amin izy ireo anefa, dia novelominy indray ny hafanam-pony teo amin'ny fanatanterahana ny iraka ho eo amin izao tontolo izao.",
+      "verse": "...",
+      "date": "28 fév - 6 mar"
     },
     {
-      "date": "2026-02-11",
-      "title": "Ny Famonjena",
-      "content": "Ny famonjena dia fanomezana avy amin'Andriamanitra amin'ny alalan'i Jesosy Kristy. Tsy amin'ny asantsika no ahazoantsika izany fa amin'ny finoana an'i Jesosy.",
-      "verse": "Fa amin'ny fahasoavana no namonjena anareo tamin'ny finoana; ary izany tsy avy aminareo, fa fanomezana avy amin'Andriamanitra.",
-      "reference": "Efes. 2:8"
+      "week_number": 11,
+      "start_date": "2025-03-07",
+      "title": "...",
+      "content": "Tsy ampy ny mino fotsiny ihany ny zavatra izay heverina ho 'marina' eto amin'izao tontolo izao. Tsy maintsy miorina tsara eo amin'ny Tenin'Andriamanitra isika mba hanao ny safidy araka ny tokony ho izy.",
+      "verse": "...",
+      "date": "7 mar - 13 mar"
     },
     {
-      "date": "2026-02-12",
-      "title": "Ny Fanantenana",
-      "content": "Ny fanantenana kristianina dia tsy fanantenana tsy azo antoka fa fanekena ny teny fikasana nomen'Andriamanitra. Io fanantenana io no mampahery antsika amin'ny andro sarotra.",
-      "verse": "Ary ny fanantenana izay ao anatintsika tsy mampalahelo; fa ny fitiavan'Andriamanitra dia natory tao amin'ny fonay tamin'ny Fanahy Masina nomeny antsika.",
-      "reference": "Rôm. 5:5"
+      "week_number": 12,
+      "start_date": "2025-03-14",
+      "title": "...",
+      "content": "Rehefa rentsika miverimberina ny vaovao mahafaly, ia toa tsy manan-kery eo amintsika intsony ny vokany. Ho aiza anefa isika raha tsy...",
+      "verse": "...",
+      "date": "14 mar - 20 mar"
     },
     {
-      "date": "2026-02-13",
-      "title": "Ilay Maritiora Kristianina Voalohany",
-      "content": "I Stefana dia maritiora kristianina voalohany izay nitora-bato ho an'ny finoany. Ny fahafatesany dia nanome herim-po ny mpino hafa sy nanova ny fiainan'i Saoly ho lasa Paoly.",
-      "verse": "Ary Stefana, feno fahasoavana sy hery, dia nanao fahagagana sy famantarana lehibe teo amin'ny vahoaka.",
-      "reference": "Asa 6:8"
+      "week_number": 13,
+      "start_date": "2025-03-21",
+      "title": "...",
+      "content": "Nanana fahavalo maromaro i Paoly vokatry ny asa fitoriana nataony, nampiato ny hivarotana sampy izy. Tsy nilaza na oviana na oviana anefa Andriamanitra fa hahatonga antsika ho mamim-bahoaka ny fihorohoroana amin'ny marina.",
+      "verse": "...",
+      "date": "21 mar - 27 mar"
     }
   ],
-  "last_update": "2026-02-13"
+  "timestamp": 1738886400000,
+  "start_date": "2024-12-27",
+  "days_per_summary": 7
     }
