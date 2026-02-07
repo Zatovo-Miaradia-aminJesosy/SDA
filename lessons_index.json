@@ -3,8 +3,8 @@
     {
       "id": 1,
       "title": "Lesona 1: Fanantenana",
-      "image": "https://raw.githubusercontent.com/.../lesson1.jpg",
-      "content_url": "https://raw.githubusercontent.com/.../lesson1.json",
+      "image": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/images/lesson1.jpg",
+      "content_url": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/lessons/lesson1.json",
       "version": "1.0",
       "last_update": "2026-02-07",
       "timestamp": 1769385600000
@@ -12,17 +12,17 @@
     {
       "id": 2,
       "title": "Lesona 2: Finoana",
-      "image": "https://raw.githubusercontent.com/.../lesson2.jpg",
-      "content_url": "https://raw.githubusercontent.com/.../lesson2.json",
-      "version": "1.1",
+      "image": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/images/lesson2.jpg",
+      "content_url": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/lessons/lesson2.json",
+      "version": "1.0",
       "last_update": "2026-02-07",
       "timestamp": 1769385600000
     },
     {
       "id": 3,
       "title": "Lesona 3: Fitiavana",
-      "image": "https://raw.githubusercontent.com/.../lesson3.jpg",
-      "content_url": "https://raw.githubusercontent.com/.../lesson3.json",
+      "image": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/images/lesson3.jpg",
+      "content_url": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/lessons/lesson3.json",
       "version": "1.0",
       "last_update": "2026-02-07",
       "timestamp": 1769385600000
@@ -30,8 +30,8 @@
     {
       "id": 4,
       "title": "Lesona 4: Faharetana",
-      "image": "https://raw.githubusercontent.com/.../lesson4.jpg",
-      "content_url": "https://raw.githubusercontent.com/.../lesson4.json",
+      "image": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/images/lesson4.jpg",
+      "content_url": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/lessons/lesson4.json",
       "version": "1.0",
       "last_update": "2026-02-07",
       "timestamp": 1769385600000
@@ -39,8 +39,8 @@
     {
       "id": 5,
       "title": "Lesona 5: Fahamarinana",
-      "image": "https://raw.githubusercontent.com/.../lesson5.jpg",
-      "content_url": "https://raw.githubusercontent.com/.../lesson5.json",
+      "image": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/images/lesson5.jpg",
+      "content_url": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/lessons/lesson5.json",
       "version": "1.0",
       "last_update": "2026-02-07",
       "timestamp": 1769385600000
@@ -48,8 +48,8 @@
     {
       "id": 6,
       "title": "Lesona 6: Fiadanana",
-      "image": "https://raw.githubusercontent.com/.../lesson6.jpg",
-      "content_url": "https://raw.githubusercontent.com/.../lesson6.json",
+      "image": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/images/lesson6.jpg",
+      "content_url": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/lessons/lesson6.json",
       "version": "1.0",
       "last_update": "2026-02-07",
       "timestamp": 1769385600000
@@ -57,8 +57,8 @@
     {
       "id": 7,
       "title": "Lesona 7: Fanalalahan-tanana",
-      "image": "https://raw.githubusercontent.com/.../lesson7.jpg",
-      "content_url": "https://raw.githubusercontent.com/.../lesson7.json",
+      "image": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/images/lesson7.jpg",
+      "content_url": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/lessons/lesson7.json",
       "version": "1.0",
       "last_update": "2026-02-07",
       "timestamp": 1769385600000
@@ -66,8 +66,8 @@
     {
       "id": 8,
       "title": "Lesona 8: Fandeferana",
-      "image": "https://raw.githubusercontent.com/.../lesson8.jpg",
-      "content_url": "https://raw.githubusercontent.com/.../lesson8.json",
+      "image": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/images/lesson8.jpg",
+      "content_url": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/lessons/lesson8.json",
       "version": "1.0",
       "last_update": "2026-02-07",
       "timestamp": 1769385600000
@@ -75,8 +75,8 @@
     {
       "id": 9,
       "title": "Lesona 9: Fahafaham-po",
-      "image": "https://raw.githubusercontent.com/.../lesson9.jpg",
-      "content_url": "https://raw.githubusercontent.com/.../lesson9.json",
+      "image": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/images/lesson9.jpg",
+      "content_url": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/lessons/lesson9.json",
       "version": "1.0",
       "last_update": "2026-02-07",
       "timestamp": 1769385600000
@@ -84,8 +84,8 @@
     {
       "id": 10,
       "title": "Lesona 10: Fanetren-tena",
-      "image": "https://raw.githubusercontent.com/.../lesson10.jpg",
-      "content_url": "https://raw.githubusercontent.com/.../lesson10.json",
+      "image": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/images/lesson10.jpg",
+      "content_url": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/lessons/lesson10.json",
       "version": "1.0",
       "last_update": "2026-02-07",
       "timestamp": 1769385600000
@@ -93,8 +93,8 @@
     {
       "id": 11,
       "title": "Lesona 11: Fampihavanana",
-      "image": "https://raw.githubusercontent.com/.../lesson11.jpg",
-      "content_url": "https://raw.githubusercontent.com/.../lesson11.json",
+      "image": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/images/lesson11.jpg",
+      "content_url": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/lessons/lesson11.json",
       "version": "1.0",
       "last_update": "2026-02-07",
       "timestamp": 1769385600000
@@ -102,8 +102,8 @@
     {
       "id": 12,
       "title": "Lesona 12: Herim-po",
-      "image": "https://raw.githubusercontent.com/.../lesson12.jpg",
-      "content_url": "https://raw.githubusercontent.com/.../lesson12.json",
+      "image": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/images/lesson12.jpg",
+      "content_url": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/lessons/lesson12.json",
       "version": "1.0",
       "last_update": "2026-02-07",
       "timestamp": 1769385600000
@@ -111,8 +111,8 @@
     {
       "id": 13,
       "title": "Lesona 13: Fahasoavana",
-      "image": "https://raw.githubusercontent.com/.../lesson13.jpg",
-      "content_url": "https://raw.githubusercontent.com/.../lesson13.json",
+      "image": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/images/lesson13.jpg",
+      "content_url": "https://raw.githubusercontent.com/zatovo-miaradia-aminjesosy/SDA/main/lessons/lesson13.json",
       "version": "1.0",
       "last_update": "2026-02-07",
       "timestamp": 1769385600000
